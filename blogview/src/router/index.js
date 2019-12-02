@@ -1,28 +1,34 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
-import home from '@/components/home'
-import blogList from '@/components/blogList'
+import Team from '@/components/Team'
+import Home from '@/components/Home'
+import Open from '@/components/Open'
+import Column from '@/components/Column'
 
 Vue.use(Router)
 
 export default new Router({
-  mode: 'history',
   routes: [
     {
-      path: '/HelloWorld',
-      name: 'HelloWorld',
-      component: HelloWorld
+      path: '/Home',
+      name: 'Home',
+      component: Home
     },
     {
-      path: '/home',
-      name: 'home',
-      component:home
+      path: '/Column',
+      name: 'Column',
+      component:Column
     },
     {
-      path: '/blogList',
-      name: 'blogList',
-      component:blogList
+      path: '/Open',
+      name: 'Open',
+      component:Open
     },
+    {
+      path: '/Team',
+      name: 'Team',
+      component:Team
+    },
+    
   ]
 })

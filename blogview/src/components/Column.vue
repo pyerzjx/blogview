@@ -6,10 +6,10 @@
 
 <script>
 export default {
-  name: 'Home',
+  name: 'Column',
   data () {
     return {
-      msg: 'Welcome to home'
+      msg: 'Welcome to Column'
     }
   }
 }
