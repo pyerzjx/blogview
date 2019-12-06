@@ -5,7 +5,7 @@
       <el-col :xs="22" :sm="22" :md="22" :lg="18" :xl="16">
         <div id="logo"><img src="./assets/logo.jpg"></div>
         <h2>分享 & 技术</h2>
-        <h5>golang & vue</h5>
+        <h5>golang & python</h5>
         <div id="router">
           <div><router-link  to="/Home">首页</router-link></div>
           <div><router-link  to="/Column">专栏</router-link></div>
