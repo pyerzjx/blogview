@@ -28,6 +28,7 @@ export default {
 <style scoped>
   .el-col {
     border-radius: 4px;
+    height: 1000px;
   }
   .bg-purple {
     background: #FFF;
