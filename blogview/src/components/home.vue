@@ -6,11 +6,11 @@
             <el-card :body-style="{ padding: '0px' }" style="padding: 8px;">
                   <img :src="item.src" class="image">
                   <div style="padding: 14px;">
-                    <span>好吃的汉堡</span>
-                    <div class="bottom clearfix">
+                    <b>gin入门教程</b>
+                    <p>gin是一个轻量级的web框架</p>
+                    <!-- <div class="bottom clearfix">
                       <time class="time">{{ currentDate }}</time>
-                      <el-button type="text" class="button">操作按钮</el-button>
-                    </div>
+                    </div> -->
                   </div>
             </el-card>
           </div>
@@ -74,7 +74,12 @@ export default {
 .imgapp{
   width: 280px;
   margin-bottom: 20px;
+  
 }
+.imgapp:hover{
+      cursor:pointer;
+      /*光标呈现为指示链接的指针（一只手）*/
+    }
 .imgapp img {
   width: 260px;
 }

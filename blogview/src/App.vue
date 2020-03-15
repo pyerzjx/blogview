@@ -9,6 +9,7 @@
         <div id="router">
           <div><router-link  to="/Home">首页</router-link></div>
           <div><router-link  to="/Column">专栏</router-link></div>
+          <div><router-link  to="/Blog">博客</router-link></div>
           <div><router-link  to="/Open" >开源</router-link></div>
           <div><router-link  to="/Team">团队</router-link></div>
         </div>

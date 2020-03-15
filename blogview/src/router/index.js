@@ -4,6 +4,7 @@ import Team from '@/components/Team'
 import Home from '@/components/Home'
 import Open from '@/components/Open'
 import Column from '@/components/Column'
+import Blog from '@/components/Blog'
 
 Vue.use(Router)
 
@@ -18,6 +19,12 @@ export default new Router({
       path: '/Column',
       name: 'Column',
       component:Column
+    },
+    
+    {
+      path: '/Blog',
+      name: 'Blog',
+      component:Blog
     },
     {
       path: '/Open',
