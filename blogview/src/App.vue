@@ -6,7 +6,7 @@
       </el-header>
 
       <el-container>
-        <el-main>cjh&zjx</el-main>
+        <el-main></el-main>
       </el-container>
       <el-footer></el-footer>
     </el-container>
@@ -15,10 +15,12 @@
 
 <script>
 import Bheader from "./components/Bheader";
+import Home from "./components/Home"
 export default {
   name: "App",
   components: {
-    bheader: Bheader
+    bheader: Bheader,
+    home:Home,
   }
 };
 </script>

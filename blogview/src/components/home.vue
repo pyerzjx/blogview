@@ -2,18 +2,18 @@
   <div id="app">
     <div class="masonry">
       <div class="column" v-for="col in columnCount" :key="col">
-          <div class="imgapp" v-for="(item,index) in imgsArr" :key="index" v-if="index%columnCount==(col-1)">
+          <!-- <div class="imgapp" v-for="(item,index) in imgsArr" :key="index" v-if="index%columnCount==(col-1)">
             <el-card :body-style="{ padding: '0px' }" style="padding: 8px;">
                   <img :src="item.src" class="image">
                   <div style="padding: 14px;">
                     <b>gin入门教程</b>
                     <p>gin是一个轻量级的web框架</p>
-                    <!-- <div class="bottom clearfix">
+                    <div class="bottom clearfix">
                       <time class="time">{{ currentDate }}</time>
-                    </div> -->
+                    </div>
                   </div>
             </el-card>
-          </div>
+          </div> -->
       </div>
     </div>
   </div>

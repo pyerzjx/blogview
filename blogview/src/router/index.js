@@ -9,33 +9,35 @@ import Blog from '@/components/Blog'
 Vue.use(Router)
 
 export default new Router({
+  // mode: history,
   routes: [
-    {
-      path: '/Home',
-      name: 'Home',
-      component: Home
-    },
-    {
-      path: '/Column',
-      name: 'Column',
-      component:Column
-    },
-    
-    {
-      path: '/Blog',
-      name: 'Blog',
-      component:Blog
-    },
-    {
-      path: '/Open',
-      name: 'Open',
-      component:Open
-    },
-    {
-      path: '/Team',
-      name: 'Team',
-      component:Team
-    },
-    
+
+    // {
+    //   path: '/Home',
+    //   name: 'Home',
+    //   component: Home
+    // },
+    // {
+    //   path: '/Column',
+    //   name: 'Column',
+    //   component:Column
+    // },
+
+    // {
+    //   path: '/Blog',
+    //   name: 'Blog',
+    //   component:Blog
+    // },
+    // {
+    //   path: '/Open',
+    //   name: 'Open',
+    //   component:Open
+    // },
+    // {
+    //   path: '/Team',
+    //   name: 'Team',
+    //   component:Team
+    // },
+
   ]
 })

@@ -19,6 +19,7 @@
       <el-menu-item index="3-1">教程</el-menu-item>
       <el-menu-item index="3-2">博文</el-menu-item>
     </el-submenu>
+    <el-menu-item index="4"><span class="el-menu-title">Team</span></el-menu-item>
   </el-menu>
 </template>
 
