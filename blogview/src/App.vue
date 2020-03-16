@@ -31,7 +31,7 @@ export default {
   background-color: #545c64;
   color: #333;
   text-align: center;
-
+  
 }
 
 .el-main {
