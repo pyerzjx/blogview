@@ -1,22 +1,24 @@
 <template>
-  <el-container>
-    <el-header><bheader></bheader></el-header>
-    
+<div id='app'>
     <el-container>
-      <el-aside width="200px">Aside</el-aside>
-      <el-main>Main</el-main>
-      
+      <el-header>
+        <bheader></bheader>
+      </el-header>
+
+      <el-container>
+        <el-main>Main</el-main>
+      </el-container>
+      <el-footer>Footer</el-footer>
     </el-container>
-    <el-footer>Footer</el-footer>
-  </el-container>
+</div>
 </template>
 
 <script>
-import Bheader from './components/Bheader'
+import Bheader from "./components/Bheader";
 export default {
   name: "App",
-  conponents:{
-    bheader:Bheader
+  components: {
+    bheader: Bheader
   }
 };
 </script>
@@ -24,23 +26,25 @@ export default {
 <style scoped>
 .el-header,
 .el-footer {
-  background-color: #b3c0d1;
+  background-color: #545c64;
   color: #333;
   text-align: center;
-  line-height: 60px;
-}
 
-.el-aside {
-  background-color: #d3dce6;
-  color: #333;
-  text-align: center;
 }
 
 .el-main {
   background-color: #e9eef3;
   color: #333;
   text-align: center;
-  min-height: calc(100vh - 120px)
+  min-height: calc(100vh - 120px);
 }
 
+#app {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 </style>

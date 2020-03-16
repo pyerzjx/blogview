@@ -1,29 +1,47 @@
 <template>
   <el-menu
     :default-active="activeIndex2"
-    class="el-menu-demo"
+    class="el-menu"
     mode="horizontal"
     @select="handleSelect"
     background-color="#545c64"
     text-color="#fff"
-    active-text-color="#ffd04b"
+    active-text-color="rgb(15, 149, 226)"
   >
-    <el-menu-item index="1">首页</el-menu-item>
+    <el-menu-item index="1" style="width:200px;font-size:24px">首页</el-menu-item>
     <el-submenu index="2">
-      <template slot="title">Python</template>
+      <template slot="title"><span class="el-menu-title">Python</span></template>
       <el-menu-item index="2-1">教程</el-menu-item>
       <el-menu-item index="2-2">博文</el-menu-item>
     </el-submenu>
     <el-submenu index="3">
-      <template slot="title">GoLang</template>
-      <el-menu-item index="2-1">教程</el-menu-item>
-      <el-menu-item index="2-2">博文</el-menu-item>
+      <template slot="title"><span class="el-menu-title">GoLang</span></template>
+      <el-menu-item index="3-1">教程</el-menu-item>
+      <el-menu-item index="3-2">博文</el-menu-item>
     </el-submenu>
   </el-menu>
 </template>
 
 <script>
 export default {
-    name: 'Bheader'
-}
+  name: "Bheader",
+  data() {
+    return {
+      activeIndex: "1",
+      activeIndex2: "1"
+    };
+  },
+  methods: {
+    handleSelect(key, keyPath) {
+      console.log(key, keyPath);
+    }
+  }
+};
 </script>
+
+<style scoped>
+.el-menu-title{
+    font-size: 16px;
+    /* padding: 42px; */
+}
+</style>
