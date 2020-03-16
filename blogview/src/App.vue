@@ -6,9 +6,9 @@
       </el-header>
 
       <el-container>
-        <el-main>Main</el-main>
+        <el-main>cjh&zjx</el-main>
       </el-container>
-      <el-footer>Footer</el-footer>
+      <el-footer></el-footer>
     </el-container>
 </div>
 </template>
@@ -37,6 +37,8 @@ export default {
   color: #333;
   text-align: center;
   min-height: calc(100vh - 120px);
+  line-height: 600px;
+  font-size: 60px;
 }
 
 #app {
